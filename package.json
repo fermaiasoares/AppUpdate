@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-autoupdate",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fermaiasoares/AppUpdate.git"
+    "url": "git+https://github.com/fermaiasoares/AutoUpdate.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fermaiasoares/AppUpdate/issues"
+    "url": "https://github.com/fermaiasoares/AutoUpdate/issues"
   },
-  "homepage": "https://github.com/fermaiasoares/AppUpdate#readme"
+  "homepage": "https://github.com/fermaiasoares/AutoUpdate#readme"
 }
