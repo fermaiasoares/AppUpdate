@@ -1,4 +1,4 @@
-package cordova.plugins.autoupdate;
+package cordova.plugin.autoupdate;
 
 import android.app.Activity;
 import android.content.Context;

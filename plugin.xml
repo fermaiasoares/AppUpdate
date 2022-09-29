@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-autoupdate" version="0.0.4" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-plugin-autoupdate" version="0.0.5" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>AutoUpdate</name>
     <js-module name="AutoUpdate" src="www/AutoUpdate.js">
         <clobbers target="AutoUpdate" />
@@ -11,7 +11,7 @@
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-        <source-file src="src/android/AutoUpdate.java" target-dir="src/cordova/plugin/autoupdate/AutoUpdate" />
+        <source-file src="src/android/AutoUpdate.java" target-dir="src/cordova/plugin/autoupdate/" />
         <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
     </platform>
 </plugin>
