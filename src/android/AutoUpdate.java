@@ -1,4 +1,4 @@
-package cordova.plugins.versasaude;
+package cordova.plugins.autoupdate;
 
 import android.app.Activity;
 import android.content.Context;
